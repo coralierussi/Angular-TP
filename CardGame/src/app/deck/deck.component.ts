@@ -8,5 +8,6 @@ import { Component } from '@angular/core';
   styleUrl: './deck.component.scss'
 })
 export class DeckComponent {
+  title = 'deck';
 
 }

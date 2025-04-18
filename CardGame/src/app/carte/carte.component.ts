@@ -8,5 +8,6 @@ import { Component } from '@angular/core';
   styleUrl: './carte.component.scss'
 })
 export class CarteComponent {
+  title = 'carte';
 
 }
