@@ -14,4 +14,13 @@ export class InscriptionComponent {
   text: string = '';
   email: string = '';
   password: string = '';
+
+  inscriptionCheck() {  
+    // if (this.email === '' || this.password === '') {
+    //   this.text = 'Veuillez remplir tous les champs.';
+    // } else {
+    //   this.text = 'Inscription réussie.';
+    // }
+    localStorage.setItem('Pseudo', this.text);
+  }
 }
